@@ -176,6 +176,8 @@ section.forth-sec .card {
         flex-direction: column;
     }
 }
+
 footer p {
     text-align: center;
+    font-size: 20px;
 }
