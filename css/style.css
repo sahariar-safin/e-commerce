@@ -1,0 +1,136 @@
+.first-section {
+    height: 900px;
+    background-color: #fff9f4;
+}
+
+.logo img {
+    width: 400px;
+}
+
+header {
+    padding-top: 50px;
+}
+
+.main-manu li a {
+    font-weight: 700;
+    font-size: 22px;
+    color: #3b3b3b;
+}
+
+.main-manu li {
+    padding: 10px 20px 10px 20px;
+}
+
+.first-sec-right {
+    margin-left: 10%;
+}
+
+.first-sec-left img {
+    width: 100%;
+}
+
+.first-sec-right h1 {
+    text-transform: uppercase;
+    font-size: 85px;
+    color: #fa804c;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.first-sec-right h3 {
+    text-transform: uppercase;
+    font-size: 85px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.first-sec-right p {
+    font-size: 29px;
+    padding: 20px 0px;
+}
+
+.first-sec-right button {
+    background-image: linear-gradient(180deg, #3c4ef0, #3643be);
+    border: 0px;
+    border-radius: 7px;
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.first-sec-right button img {
+    width: 30px;
+}
+.card{
+    border-radius: 30px;
+}
+.card-img {
+    background-color: #f1f1f1;
+    width: 95%;
+    height: 445px;
+    border-radius: 30px;
+    margin: 10px auto;
+}
+.price {
+    padding: 20px 0px;
+}
+.card2-img{
+    margin: 0px auto;
+}
+.card-price {
+    margin: 10px;
+}
+
+.card button {
+    background-image: linear-gradient(180deg, #3c4ef0, #3643be);
+    border: 0px;
+    border-radius: 7px;
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.card button img {
+    width: 30px;
+}
+
+.card-body h5 {
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+
+.price h1 {
+    color: #fa804c;
+    font-weight: 800;
+}
+.title h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 57px;
+    padding: 80px 0px;
+}
+section.third-sec {
+    height: 1045px;
+}
+img.forth-sec-card-icon {
+    width: 95px;
+    margin: 36px;
+}
+.card-radius {
+    border-radius: 30px;
+}
+.forth-sec-img img{
+    width: 100%;
+}
+.card-body p {
+    font-size: 16px;
+}
+
+.card-body h5 {
+    font-size: 24px;
+}
+section.forth-sec .card {
+    border: none;
+}
