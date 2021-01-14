@@ -1,5 +1,6 @@
 .first-section {
-    height: 900px;
+    height: auto;
+    padding-bottom: 80px;
     background-color: #fff9f4;
 }
 
@@ -61,9 +62,11 @@ header {
 .first-sec-right button img {
     width: 30px;
 }
-.card{
+
+.card {
     border-radius: 30px;
 }
+
 .card-img {
     background-color: #f1f1f1;
     width: 95%;
@@ -71,12 +74,15 @@ header {
     border-radius: 30px;
     margin: 10px auto;
 }
+
 .price {
     padding: 20px 0px;
 }
-.card2-img{
+
+.card2-img {
     margin: 0px auto;
 }
+
 .card-price {
     margin: 10px;
 }
@@ -101,29 +107,30 @@ header {
     padding: 20px 0px;
 }
 
-
 .price h1 {
     color: #fa804c;
     font-weight: 800;
 }
+
 .title h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 57px;
     padding: 80px 0px;
 }
-section.third-sec {
-    height: 1045px;
-}
+
 img.forth-sec-card-icon {
     width: 95px;
     margin: 36px;
 }
+
 .card-radius {
     border-radius: 30px;
 }
-.forth-sec-img img{
+
+.forth-sec-img img {
     width: 100%;
 }
+
 .card-body p {
     font-size: 16px;
 }
@@ -131,6 +138,44 @@ img.forth-sec-card-icon {
 .card-body h5 {
     font-size: 24px;
 }
+
 section.forth-sec .card {
     border: none;
+}
+
+@media (max-width: 540px) {
+    .first-section .row {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .first-section .row {
+        flex-direction: column-reverse;
+    }
+    .first-sec-right {
+        padding-top: 50px;
+    }
+    .first-sec-left {
+        padding-top: 20px;
+    }
+    .logo img {
+        width: 280px;
+    }
+    .third-sec {
+        height: auto;
+    }
+    .forth-sec {
+        text-align: center;
+    }
+    .forth-sec-img {
+        padding: 50px 0px;
+    }
+    .forth-sec .row {
+        flex-direction: column-reverse;
+    }
+    .card .row {
+        flex-direction: column;
+    }
+}
+footer p {
+    text-align: center;
 }
