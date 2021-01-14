@@ -175,9 +175,50 @@ section.forth-sec .card {
     .card .row {
         flex-direction: column;
     }
+    .contact {
+        height: 600px;
+    }
+    .contact-form {
+        flex-direction: column;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100% ;
+    }
+    .message textarea {
+        height: 80px;
+    }
 }
 
 footer p {
     text-align: center;
     font-size: 20px;
+}
+
+.contact {
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.contact-form input, .contact-form textarea {
+    font-size: 24px;
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #fa804c;
+    color: #fa804c;
+    width: 90%;
+}
+
+.message textarea {
+    height: 100px;
+}
+
+.contact button {
+    background-color: #fa804c;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
 }
